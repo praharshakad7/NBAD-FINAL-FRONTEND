@@ -1,7 +1,7 @@
 // axiosInstance.js
 import axios from 'axios';
 
-const baseURL = 'https://praharsha-personal-budget-bwlhh.ondigitalocean.app'; // replace with your API base URL
+const baseURL = 'https://praharsha-personal-budget-bwlhh.ondigitalocean.app/api/v1/'; // replace with your API base URL
 
 const Axios = axios.create({
   baseURL,
