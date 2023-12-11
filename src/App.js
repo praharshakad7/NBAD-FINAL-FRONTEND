@@ -21,7 +21,7 @@ const App = () => {
       if (isLoggedin()) {
         refreshToken();
       }
-    }, 50000);
+    }, 70000);
   
     // Cleanup the interval on component unmount
     return () => clearInterval(intervalId);
